@@ -7,6 +7,23 @@ body {
 .link {
     text-decoration: none;
 }
+.pagination:hover,
+.pagination:focus {
+    color: #404BBF;
+}
+.btn:hover,
+.btn:focus{
+    color: #FFFFFF;
+    background: #404BBF;
+}
+.active:hover,
+.active:focus{
+    color: #FFFFFF;
+    background: #404BBF;
+}
+.filter{
+    cursor: pointer;
+}
 .header {
 }
 .header-navigation {
@@ -40,6 +57,8 @@ body {
 .header-item {
 }
 .header-link {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -47,20 +66,22 @@ body {
     color: #2E2F42;
 }
 .header-mail {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .header-tel {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 
 .section-link {
@@ -75,8 +96,9 @@ body {
     color: #FFFFFF;
 }
 .section-link-btn {
-    font-family: inherit;
-    font-weight: 500;  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
@@ -85,6 +107,7 @@ body {
     color: #FFFFFF;
     background: #4D5AE5;
 }
+
 .hero {
 
 }
@@ -181,63 +204,88 @@ background: #2E2F42;
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
-.all-btn {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    align-items: center;
+.title {
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #404BBF;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.about-filter{
+    font-family: 'Roboto';
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.all-btn {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background: #F4F4FD;
 }
 .website-btn {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: #4D5AE5;  
     background: #F4F4FD;
 }
 .app-btn {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: #4D5AE5;    
     background: #F4F4FD;
 }
 .design-btn {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: #4D5AE5;    
     background: #F4F4FD;
 }
 .marketing-btn {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: #4D5AE5;  
+    background: #F4F4FD;  
 }
 .about {
-    background: #FFFFFF;
 }
 .about-suptitle {
     font-style: normal;
