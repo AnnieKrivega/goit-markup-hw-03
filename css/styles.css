@@ -24,11 +24,24 @@ body {
 .filter{
     cursor: pointer;
 }
+.ul{
+    margin: 0;
+    padding: 0;
+}
+.h3{
+    margin: 0;
+}
+.p{
+    margin: 0;
+}
 .header {
 }
 .header-container{
     display: flex;
     align-items: center;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .header-navigation {
     display: flex;
@@ -96,8 +109,10 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.address{
-    margin-right: auto;
+
+.address-title{
+    display: flex;
+    gap: 40px;
 }
 .header-mail {
 font-family: 'Roboto';
@@ -107,6 +122,7 @@ font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-right: auto;
 }
 .header-tel {
 font-family: 'Roboto';
@@ -120,10 +136,9 @@ color: #2E2F42;
 
 .section-link {
     background: #2E2F42;
+    padding: 188px 0;
 }
 .section-container{
-    padding: 188px 292px;
-    margin: auto;
     align-items: center;
 }
 .section-link-title {
@@ -135,8 +150,11 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 48px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .section-link-btn {
+    border: 1px solid transparent;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -153,9 +171,11 @@ color: #2E2F42;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .hero {
+    padding-top: 120px;
 }
 .hero-title {
     font-size: 36px;
@@ -172,7 +192,6 @@ color: #2E2F42;
     gap: 24px;
     margin-right: 156px;
     margin-left: 156px;
-    margin-bottom: 120px;
 }
 .hero-item {
 }
@@ -184,6 +203,7 @@ color: #2E2F42;
     color: #2E2F42;
     width: 264px;
     height: 24px;
+    margin-bottom: 8px;
 }
 .hero-subtitle {
     font-size: 16px;
@@ -192,6 +212,10 @@ color: #2E2F42;
     color: #434455;
     width: 264px;
     height: 72px;
+}
+.photo-title{
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 .work {
     font-size: 36px;
@@ -206,7 +230,7 @@ color: #2E2F42;
     gap: 24px;
     margin-right: 156px;
     margin-left: 156px;
-    margin-bottom: 240px;
+    padding-top: 120px;
 }
 .team {
     min-width: 1440px;
@@ -214,6 +238,8 @@ color: #2E2F42;
     left: 0px;
     top: 1548px;
     background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -235,7 +261,6 @@ color: #2E2F42;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 220px;
 }
 .team-suptitle {
     font-weight: 500;
@@ -305,6 +330,10 @@ color: #2E2F42;
     text-transform: capitalize;
     color: #2E2F42;
 }
+.header-portfolio{
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .about-filter{
     font-family: 'Roboto';
     font-size: 56px;
@@ -313,6 +342,7 @@ color: #2E2F42;
     letter-spacing: 0.02em;
 }
 .filter-container{
+    margin-top: 96px;
     margin-bottom: 72px;
 }
 .filter-wrap{
@@ -323,6 +353,9 @@ color: #2E2F42;
     gap: 24px;
     top: 168px;
     align-items: center;
+}
+.wrap{
+    margin: 0 auto;
 }
 .all-btn {
 font-family: 'Roboto';
@@ -336,6 +369,7 @@ text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 background: #F4F4FD;
+border: 1px solid transparent;
 }
 .website-btn {
     font-family: 'Roboto';
@@ -349,6 +383,7 @@ background: #F4F4FD;
     letter-spacing: 0.04em;
     color: #4D5AE5;  
     background: #F4F4FD;
+    border: 1px solid transparent;
 }
 .app-btn {
     font-family: 'Roboto';
@@ -362,6 +397,7 @@ background: #F4F4FD;
     letter-spacing: 0.04em;
     color: #4D5AE5;    
     background: #F4F4FD;
+    border: 1px solid transparent;
 }
 .design-btn {
     font-family: 'Roboto';
@@ -375,6 +411,7 @@ background: #F4F4FD;
     letter-spacing: 0.04em;
     color: #4D5AE5;    
     background: #F4F4FD;
+    border: 1px solid transparent;
 }
 .marketing-btn {
     font-family: 'Roboto';
@@ -388,14 +425,18 @@ background: #F4F4FD;
     letter-spacing: 0.04em;
     color: #4D5AE5;  
     background: #F4F4FD;  
+    border: 1px solid transparent;
 }
 .works-container{
+    padding-top: 72px;
+    margin: auto;
+    margin-right: 156px;
+    margin-left: 156px;
 }
 .works{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding: 0px 156px 0px 156px;
 }
 .about {
     box-sizing: border-box;
