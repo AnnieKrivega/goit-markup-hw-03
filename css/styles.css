@@ -26,7 +26,7 @@ body {
 }
 .ul{
     margin: 0;
-    padding: 0;
+    padding-right: 0;
 }
 .h3{
     margin: 0;
@@ -111,6 +111,10 @@ gap: 40px;
 }
 
 .address-title{
+    display: flex;
+    gap: 40px;
+}
+.address-style{
     display: flex;
     gap: 40px;
 }
