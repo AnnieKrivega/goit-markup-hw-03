@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
@@ -37,8 +41,8 @@
             </div>
         </section>
             <section class="hero">
-                <h2 class="hero-title">Our advantages</h2>
                 <div class="container hero-container">
+                    <h2 class="hero-title">Our advantages</h2>
                     <ul class="hero-list list">
                         <li class="hero-item">
                             <h3 class="hero-suptitle">Strategy</h3>
@@ -60,36 +64,46 @@
                 </div>
             </section>
             <section class="photo-title">
-                <h2 class="work">What are we doing</h2>
-                <ul class="photo">
-                    <li class="list"><img src="./images/about-img-1.jpg" alt="computer" width="360" /></li>
-                    <li class="list"><img src="./images/about-img-2.jpg" alt="display" width="360" /></li>
-                    <li class="list"><img src="./images/about-img-3.jpg" alt="phone" width="360" /></li>
-                </ul>
+                <div class="container photo-container">
+                    <h2 class="work">What are we doing</h2>
+                    <ul class="photo">
+                        <li class="list"><img src="./images/about-img-1.jpg" alt="computer" width="360" /></li>
+                        <li class="list"><img src="./images/about-img-2.jpg" alt="display" width="360" /></li>
+                        <li class="list"><img src="./images/about-img-3.jpg" alt="phone" width="360" /></li>
+                    </ul>
+                </div>
             </section>
             <section class="team">
                 <h2 class="team-title">Our Team</h2>
                 <div class="container">
                     <ul class="team-container">
                     <li class="team-wrap list">
-                        <img src="./images/about-Mark.jpg" alt="Mark Guerrero" width="264" />
-                        <h3 class="team-suptitle">Mark Guerrero</h3>
-                        <p class="team-subtitle">Product Designer</p>
+                        <img class="team-photo" src="./images/about-Mark.jpg" alt="Mark Guerrero" width="264" />
+                        <div class="container wrap-container">
+                            <h3 class="team-suptitle">Mark Guerrero</h3>
+                            <p class="team-subtitle">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-wrap list">
-                        <img src="./images/about-Tom.jpg" alt="Tom Ford" width="264" />
-                        <h3 class="team-suptitle">Tom Ford</h3>
-                        <p class="team-subtitle">Frontend Developer</p>
+                        <img class="team-photo" src="./images/about-Tom.jpg" alt="Tom Ford" width="264" />
+                        <div class="container wrap-container">
+                            <h3 class="team-suptitle">Tom Ford</h3>
+                            <p class="team-subtitle">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-wrap list">
-                        <img src="./images/about-Camila.jpg" alt="Camila Garcia" width="264" />
-                        <h3 class="team-suptitle">Camila Garcia</h3>
-                        <p class="team-subtitle">Marketing</p>
+                        <img class="team-photo" src="./images/about-Camila.jpg" alt="Camila Garcia" width="264" />
+                        <div class="container wrap-container">
+                            <h3 class="team-suptitle">Camila Garcia</h3>
+                            <p class="team-subtitle">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-wrap list">
-                        <img src="./images/about-Daniel.jpg" alt="Daniel Wilson" width="264" />
-                        <h3 class="team-suptitle">Daniel Wilson</h3>
-                        <p class="team-subtitle">UI Designer</p>
+                        <img class="team-photo" src="./images/about-Daniel.jpg" alt="Daniel Wilson" width="264" />
+                        <div class="container wrap-container">
+                            <h3 class="team-suptitle">Daniel Wilson</h3>
+                            <p class="team-subtitle">UI Designer</p>
+                        </div>
                     </li>
                     </ul>
                 </div>
