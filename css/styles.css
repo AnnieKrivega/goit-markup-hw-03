@@ -39,6 +39,13 @@ p{
 padding-top: 24px;
 padding-bottom: 24px;
 }
+.container{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-container{
     display: flex;
     align-items: center;
@@ -188,8 +195,8 @@ color: #2E2F42;
     padding-bottom: 120px;
 }
 .hero-container{
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 1158px;
 }
 .hero-title {
