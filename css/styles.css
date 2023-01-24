@@ -455,12 +455,7 @@ p{
     row-gap: 48px;
 }
 .about {
-    width: 360px;
-    height: 420px;
-    left: 156px;
-    top: 288px;
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 .works-photo{
     display: block;
@@ -468,6 +463,9 @@ p{
 .about-container{
     padding-top: 32px;
     padding-bottom: 32px;
+    border-left: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
 }
 .about-suptitle {
     font-style: normal;
