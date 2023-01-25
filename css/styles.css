@@ -72,7 +72,7 @@ p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-right: 147px;
+    margin-right: 76px;
 }
 .right {
     font-family: 'Raleway';
@@ -231,6 +231,7 @@ p{
     margin-bottom: 72px;
 }
 .photo{
+    display: block;
     display: flex;
     gap: 24px;
 }
@@ -370,6 +371,7 @@ p{
     gap: 24px;
     top: 168px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 .wrap{
 }
@@ -386,6 +388,7 @@ p{
     color: #4D5AE5;
     background: #F4F4FD;
     border: 1px solid transparent;
+    padding: 12px 24px;
 }
 .website-btn {
     font-family: 'Roboto';
@@ -400,6 +403,7 @@ p{
     color: #4D5AE5;  
     background: #F4F4FD;
     border: 1px solid transparent;
+    padding: 12px 24px;
 }
 .app-btn {
     font-family: 'Roboto';
@@ -414,6 +418,7 @@ p{
     color: #4D5AE5;    
     background: #F4F4FD;
     border: 1px solid transparent;
+    padding: 12px 24px;
 }
 .design-btn {
     font-family: 'Roboto';
@@ -428,6 +433,7 @@ p{
     color: #4D5AE5;    
     background: #F4F4FD;
     border: 1px solid transparent;
+    padding: 12px 24px;
 }
 .marketing-btn {
     font-family: 'Roboto';
@@ -442,6 +448,7 @@ p{
     color: #4D5AE5;  
     background: #F4F4FD;  
     border: 1px solid transparent;
+    padding: 12px 24px;
 }
 .works-container{
     padding-top: 72px;
